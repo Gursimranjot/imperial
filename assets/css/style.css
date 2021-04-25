@@ -1,10 +1,3 @@
-/**
-* Template Name: Mentor - v4.0.1
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -150,6 +143,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 66px;
+}
+
+@media (max-width:768px) {
+  #header .logo img{
+    max-height: 45px;
+  }
 }
 
 /**
@@ -463,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 50vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -481,6 +480,12 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+}
+
+@media (max-width:767px){
+  section{
+    padding: 20px 0;
+  }
 }
 
 .section-bg {
@@ -1599,4 +1604,20 @@ section {
 }
 .callnow {
     float: right;
+}
+
+@media (max-width:767px){
+  .contact-section{
+    height: auto;
+  }
+  .callnow{
+    float: none;
+    padding-bottom: 30px;
+  }
+  .contact-section span{
+    margin-top: 20px;
+  }
+  .contact-section h3{
+    margin-top: 20px;
+  }
 }
